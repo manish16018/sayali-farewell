@@ -1,0 +1,23 @@
+.Profile {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    
+    .description {
+        align-self: center;
+        font-family: 'Lobster', cursive;
+        font-size: 2.7rem;
+    }
+    img {
+        border-radius: 50%;
+        height: 12rem;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .Profile{
+        display: flex; 
+        justify-content: space-around;
+        flex-direction: column;
+    }
+}
