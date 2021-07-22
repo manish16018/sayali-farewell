@@ -5,7 +5,9 @@ import GIFCard from "../GifCard";
 import { useState } from "react";
 
 const Home = () => {
-  const [index, setIndex] = useState(0);
+  const length = Details.length;
+  let [index, setIndex] = useState(0);
+  const setDataIndex = inc => setIndex(index = Math.abs(index + length + inc)%length);
 
   return (
     <div>
@@ -13,7 +15,7 @@ const Home = () => {
       <div className="Home">
         <GIFCard
           data={Details[index]}
-          setIndex={setIndex}
+          setIndex={setDataIndex}
         />
       </div>
     </div>
