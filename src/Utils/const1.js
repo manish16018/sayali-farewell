@@ -1,24 +1,25 @@
 import penguin from '../gifs/penguin.gif';
 import kimjong from '../gifs/kimjong.gif';
-import princess from '../gifs/princess.gif';
+import diksha from '../gifs/princess.gif';
 import uttara from '../gifs/uttara.gif';
-import vivek from '../gifs/vivek1.gif';
+import vivek from '../gifs/vivek.gif';
 import pooja from '../gifs/pooja.gif';
 import rohit from '../gifs/rohit.gif';
+import manish from '../gifs/manish1.gif';
 
 export const Details = [
     {
         id : "1",
         Name : "Diksha Kewat",
         Comment  : "To me, from day one you have been a mentor, a confidante and a guide in every way possible. The tiring office hours, the unacheivable tasks or confusing meetings made more sense with you around and you taught me the fact that there is always a solution you just have to find a way. You were an asset to the whole department. The knowledge that you shared with us and the learning you bought cannot be compared with anything. You have been a true and amazing co-worker and most of all a friend. Thank you so much for everything. Surely going to miss you here. I wish there were more moments of singing ed sheeran songs together.",
-        imgUrl : princess,
+        imgUrl : diksha,
         alt : "princess GIF"
     } ,
     {
         id : "2",
         Name : "Manish Kumar",
-        Comment  : "Hi sir,<br>So let’s begin by I must have irritated with the amount of production issues I have done, and the mails you have to answer to , but you never let that reach me and also protected me , but in the process I have now before doing anything send my commit to everyone🤣 .<br>And in between all the work, those small but fun conversations about series (Mirzapur😂) etc was great to have and thanks for making us feel comfortable to ask to you anything and before leaving also, you wanted to let our issues sorted if there are any, <br>I really wished you continue to be here but no problem , may you achieve all the success and good luck for your future endeavours 🙂",
-        imgUrl : penguin,
+        Comment  :"<b>Hi Sayali !!!!</b><br>Meri aapse pehle toh zyada baat hoti nhi thi, aur that too because mujhe apse darr lgta tha &#128123;, but when this Api Hub started , I think tab se hone lagi then knowledge sharing sessions ke time pe.<br>It was always fun interacting with you about everything. <br>You also motivated me to do better in life and career , and han higher studies krne bhi jaunga ek din &#128539; <br> And mai python ke liye pycharm shayad kabhi use krna start dr dun 😂😂 <br> We will always miss you , Our problem solver." ,
+        imgUrl : manish,
         alt : "Manish GIF"    
     } ,
     {
