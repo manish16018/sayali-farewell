@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import OptionTile from "./OptionTile";
-import { Details } from "../../Utils/const1";
+import { Details as details } from "../../Utils/const1";
 
 export default function GIFCard({ data }) {
+  const Details = [...details]
+  Details.sort( () => .5 - Math.random() );
   const [isCorrect, setIsCorrect] = useState(false);
 
   useEffect(() => {
@@ -35,7 +37,8 @@ export default function GIFCard({ data }) {
               name={ele.Name}
               handler={handler}
             />
-          ))}
+          ))
+          }
         </div>
       ) : (
         <div className="card-container-desc">

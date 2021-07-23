@@ -1,4 +1,3 @@
-import penguin from '../gifs/penguin.gif';
 import kimjong from '../gifs/kimjong.gif';
 import diksha from '../gifs/princess.gif';
 import uttara from '../gifs/uttara.gif';
@@ -6,6 +5,7 @@ import vivek from '../gifs/vivek.gif';
 import pooja from '../gifs/pooja.gif';
 import rohit from '../gifs/rohit.gif';
 import manish from '../gifs/manish1.gif';
+import laxmi from '../gifs/laxmi.gif';
 
 export const Details = [
     {
@@ -18,7 +18,7 @@ export const Details = [
     {
         id : "2",
         Name : "Manish Kumar",
-        Comment  :"<b>Hi Sayali !!!!</b><br>Meri aapse pehle toh zyada baat hoti nhi thi, aur that too because mujhe apse darr lgta tha &#128123;, but when this Api Hub started , I think tab se hone lagi then knowledge sharing sessions ke time pe.<br>It was always fun interacting with you about everything. <br>You also motivated me to do better in life and career , and han higher studies krne bhi jaunga ek din &#128539; <br> And mai python ke liye pycharm shayad kabhi use krna start dr dun 😂😂 <br> We will always miss you , Our problem solver." ,
+        Comment  :"<b>Hi Sayali !!!!</b><br>Meri aapse pehle toh zyada baat hoti nhi thi, aur that too because mujhe apse darr lgta tha &#128123;, but when this Api Hub started , I think tab se hone lagi then knowledge sharing sessions ke time pe.<br>It was always fun interacting with you about everything. <br>You also motivated me to do better in life and career , and han higher studies krne bhi jaunga ek din &#128539; <br> And mai python ke liye pycharm shayad kabhi use krna start dr dun 😂😂 Aur main zyada badbad nhi krta &#128539; &#128539; <br> We will always miss you , Our problem solver." ,
         imgUrl : manish,
         alt : "Manish GIF"    
     } ,
@@ -32,8 +32,8 @@ export const Details = [
     {
         id : "4",
         Name : "Laxmi Sarki",
-        Comment  : "It all started from wishing an <i>architect engineer</i>, not to our <i>manager</i><br> but then in the process of it , you standing for us , protecting us , teaching us and strengthing the whole collapse system on your single shoulder and creating a family bonded developer environment <br>,where still being virtual makes all of us to wish for better future of one another .<br> Thanks a lot and bless you with lots of happiness and health.",
-        imgUrl : penguin,
+        Comment  : "Mature ,Independent , smart worker in all areas of her life .<br> Knows her moves in well advance . <br>sarvagun sampanna as you say .",
+        imgUrl : laxmi,
         alt : "Laxmi GIF"
     } ,
     {

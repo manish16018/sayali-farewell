@@ -8,7 +8,7 @@ const Profile = () => {
       <div className="image">
         <img src={penguin} />
       </div>
-      <div className="description">Black pearl won't be same without you!!</div>
+      <div className="description">Digital Singham!! You will be missed</div>
     </div>
   );
 };
