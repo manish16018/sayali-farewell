@@ -1,9 +1,16 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import OptionTile from "./OptionTile";
 import { Details } from "../../Utils/const1";
 
 export default function GIFCard({ data, setIndex }) {
   const [isCorrect, setIsCorrect] = useState(false);
+
+  useEffect(() => {
+    console.log("In this one now");
+    return () => {
+      handler(false);
+    };
+  }, [data]);
 
   const handler = (flag = true) => {
     setIsCorrect(flag);
@@ -11,15 +18,6 @@ export default function GIFCard({ data, setIndex }) {
 
   return (
     <div className="container-gif">
-      <a
-        className="prev"
-        onClick={() => {
-          setIndex(-1);
-          handler(false);
-        }}
-      >
-        &#10094;
-      </a>
       <div className="container-gif-image">
         <img src={data.imgUrl} alt={data.alt} height="420px" widht="200px" />
       </div>
@@ -27,6 +25,7 @@ export default function GIFCard({ data, setIndex }) {
         <div className="options">
           {Details.map((ele) => (
             <OptionTile
+              key={ele.id}
               rightAnswer={data.Name}
               name={ele.Name}
               handler={handler}
@@ -42,15 +41,6 @@ export default function GIFCard({ data, setIndex }) {
           ></p>
         </div>
       )}
-      <a
-        className="next"
-        onClick={() => {
-          setIndex(1);
-          handler(false);
-        }}
-      >
-        &#10095;
-      </a>
     </div>
   );
 }

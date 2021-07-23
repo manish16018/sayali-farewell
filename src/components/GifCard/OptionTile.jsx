@@ -1,7 +1,11 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function OptionTile({ name, rightAnswer, handler }) {
-  const [check, setCheck] = useState(null);
+  const [check, setCheck] = useState(null)
+
+  useEffect(()=>{
+    setCheck(null)
+  },[rightAnswer])
 
   const checkAnswer = () => {
     if (name === rightAnswer) {

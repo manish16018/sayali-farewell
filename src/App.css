@@ -38,7 +38,7 @@ body {
 }
 
 .valid {
-  background-color: green;
+  background-color: rgb(65, 143, 65);
 }
 
 .default {
@@ -46,7 +46,7 @@ body {
 }
 
 .invalid {
-  background-color: red;
+  background-color: rgb(196, 70, 70);
 }
 
 .option-tile {
@@ -69,18 +69,3 @@ body {
   padding-top: 1.3rem;
 }
 
-
-.prev, .next {
-  margin-top: 500px;
-  cursor: pointer;
-  width: auto;
-  height: 100%;
-  padding: 16px;
-  background-color: burlywood;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
