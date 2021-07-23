@@ -6,6 +6,10 @@ export default function GIFCard({ data }) {
   const [isCorrect, setIsCorrect] = useState(false);
 
   useEffect(() => {
+    document.querySelector(".container-gif").style.display = "none"
+    setTimeout(() => {
+      document.querySelector(".container-gif").style.display = "flex"
+    },60)
     return () => {
         handler(false,0)
     };
@@ -18,7 +22,7 @@ export default function GIFCard({ data }) {
   };
 
   return (
-    <div className="container-gif">
+    <div className="container-gif fade">
       <div className="container-gif-image">
         <img src={data.imgUrl} alt={data.alt} height="420px" widht="200px" />
       </div>
@@ -35,7 +39,7 @@ export default function GIFCard({ data }) {
         </div>
       ) : (
         <div className="card-container-desc">
-          <h2> My thoughts about You !! </h2>
+          <h2> {data.Name}'s thoughts !! </h2>
           <p
             className="desc"
             dangerouslySetInnerHTML={{ __html: data.Comment }}

@@ -8,8 +8,7 @@ import Arrows from '../Arrows';
 const Home = () => {
   const length = Details.length;
   let [index, setIndex] = useState(0);
-  const setDataIndex = (inc) =>
-    setIndex((index = Math.abs(index + length + inc) % length));
+  const setDataIndex = (inc) => setIndex((index = Math.abs(index + length + inc) % length));
 
   return (
     <div>

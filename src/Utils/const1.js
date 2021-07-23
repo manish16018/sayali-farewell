@@ -1,6 +1,10 @@
 import penguin from '../gifs/penguin.gif';
 import kimjong from '../gifs/kimjong.gif';
 import princess from '../gifs/princess.gif';
+import uttara from '../gifs/uttara.gif';
+import vivek from '../gifs/vivek1.gif';
+import pooja from '../gifs/pooja.gif';
+import rohit from '../gifs/rohit.gif';
 
 export const Details = [
     {
@@ -20,8 +24,8 @@ export const Details = [
     {
         id : "3",
         Name : "Pooja Singh",
-        Comment  : "Hi Anish sir,<br>So how should I began, okay lets start by thankyou for all the support you have given me , protecting us from all the mistakes and always encouraging to learn and explore ,<br>We didn’t get to meet in person and you are already leaving , I will miss your gm msges and always encouraging to invest time in learning something new , challenging ourselves. And I hope we all learn some fighting for the right skills 😛from you.<br>Thanks for all the memories and I hope you remember us irrespective of the short time we have worked together.<br>Wish you all the success and happiness in your life ahead.",
-        imgUrl : penguin,
+        Comment  : "Hi Sayali ,<br> Okay lets begin by saying you are the one with whom I started my professional career under your guidance , I must say, you have been a great help in starting this learning process , because I literally had no idea about what to do😂😂 <br>I can for sure say that company is losing one of its best employees. Whenever we are in a issue , we all know Sayali ke paas toh kuch hoga hi 😀😀And I love the confidence which I see in you and may be I can learn to have some 😂 <br>may the journey ahead be filled with success , happiness and prosperity. And stay this amazing person you are.", 
+        imgUrl : pooja,
         alt : "Pooja GIF"   
     } ,
     {
@@ -34,22 +38,29 @@ export const Details = [
     {
         id : "5",
         Name : "Amit Yadav",
-        Comment  : "<b><i>Singham of Digital</i></b>.<br>Aapse kaafi kuch seekha hai mainai starting se. Even git bhi aap hi ne seekhaya mujhe. Aapne kaafi help bhi ki hai. Starting mai mere exams the toh aap , diksha and Anish sir ne mera work load bhi le lia tha.<br>'(Tum exam do ye hum dekhlengey -  aapke words the)'. Humko kuch bhi problem hoti hai toh, hume pata hai  agar kahi solution nahi mila toh Sayali ke pass zaroor mil jaega. Aapko  kaafi miss karne wale hai hum. Aapki treat abhi bhi pending hai, Ab toh dedo treat.",
+        Comment  : "<b><i>Singham of Digital</i></b>.<br>Aapse kaafi kuch seekha hai mainai starting se. Even git bhi aap hi ne seekhaya mujhe. Aapne kaafi help bhi ki hai. Starting mai mere exams the toh aap , diksha and Anish sir ne mera work load bhi le lia tha.<br>(Tum exam do ye hum dekhlengey -  aapke words the).<br> Humko kuch bhi problem hoti hai toh, hume pata hai  agar kahi solution nahi mila toh Sayali ke pass zaroor mil jaega. Aapko  kaafi miss karne wale hai hum. Aapki treat abhi bhi pending hai, Ab toh dedo treat.",
         imgUrl : kimjong,
         alt : "Amit GIF"
     },
     {
         id : "6",
-        Name : "Sayali Jangam",
-        Comment  : "It is really hard to say goodbye to a person who became a part of your everyday life. On all weekdays our morning used to start with your <b><i>Hi....Gm messages.....</i></b> since last few days we are already missing that enthusiasm.<br> Ohh yes I will always remember your <b><i>'follow process'</i></b> methodology. I wish you could have here for more time because we don't want to loose our Black Pearl.<br>I have learned many things from you and hope that I will make the best use of the advice and guidance specially process methodology. bhad me jaye ticket jab tak requirement clear nhi tab tak don't start you work.<br>I wish I could write more but we have UI restrictions😋<br>We treasure your support and guidance in our career, thanks for the wonderful memories and supports. Wishing you all success in your life! <br> <b>PS :- We should have one get-together with manager<br><b>",
-        imgUrl : penguin,
-        alt : "Sayali GIF"
+        Name : "Uttara Donde",
+        Comment  : "Loved having you on the team! <br>Enjoy the new opportunity!&nbsp I'm just a whatsapp msg away!!<br> <i> Keep in touch! </i>" ,
+        imgUrl : uttara,
+        alt : "Uttara GIF"
     } ,
     {
         id : "7",
         Name : "Rohit Raj",
-        Comment  : "To become a truly, hardworking individual at work, you must see <b>#Anish Panday# </b> .<br> All the best for your future endeavours",
-        imgUrl : penguin,
+        Comment  : "Whenever I got tired with everyday work. I use to call sayali and discuss work,technologies etc.<br>She is one of the best person I met but she married little early. But to correct that mistake she promised,<br>me to do masters from top university in world and work on amazing products in future.This switch is just the beginning<br> but picture abhi baaki hai boss.<br>Wishing you all the best for your future.",
+        imgUrl : rohit,
         alt : "Rohit GIF"
+    },
+    {
+        id : "8",
+        Name : "Vivek Jain",
+        Comment  : "It was great working with you.<br> As you move into a new venture may luck and success always be with you !!<br> <i>Hope our path will cross again.</i><br>keep on fighting the bugs like this GIF <br>",
+        imgUrl : vivek,
+        alt : "Vivek GIF"
     }
 ]
