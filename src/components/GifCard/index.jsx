@@ -2,18 +2,19 @@ import { useState, useEffect } from "react";
 import OptionTile from "./OptionTile";
 import { Details } from "../../Utils/const1";
 
-export default function GIFCard({ data, setIndex }) {
+export default function GIFCard({ data }) {
   const [isCorrect, setIsCorrect] = useState(false);
 
   useEffect(() => {
-    console.log("In this one now");
     return () => {
-      handler(false);
+        handler(false,0)
     };
   }, [data]);
 
-  const handler = (flag = true) => {
-    setIsCorrect(flag);
+  const handler = (flag=true, time=500) => {
+    setTimeout(() => {
+      setIsCorrect(flag);
+    },(time))
   };
 
   return (
@@ -33,7 +34,7 @@ export default function GIFCard({ data, setIndex }) {
           ))}
         </div>
       ) : (
-        <div className="card-container">
+        <div className="card-container-desc">
           <h2> My thoughts about You !! </h2>
           <p
             className="desc"

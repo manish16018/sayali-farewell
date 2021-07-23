@@ -1,13 +1,14 @@
 import penguin from '../gifs/penguin.gif';
 import kimjong from '../gifs/kimjong.gif';
+import princess from '../gifs/princess.gif';
 
 export const Details = [
     {
         id : "1",
         Name : "Diksha Kewat",
-        Comment  : "<i>Hi Anish</i><br>Through the beginning of our journey I can honestly say I am the only one who has irritated you at so many levels.<br>But being a manager can be hard and your aura has always been protective and caring towards us not only making dasall our work easy but also induce the idea to build ourselves for better and seek for better. May god bless you with cheerful years of learning and growth ahead. After all you are just 36 years young!!!<br>Guess who am I?",
-        imgUrl : penguin,
-        alt : "penguin GIF"
+        Comment  : "To me, from day one you have been a mentor, a confidante and a guide in every way possible. The tiring office hours, the unacheivable tasks or confusing meetings made more sense with you around and you taught me the fact that there is always a solution you just have to find a way. You were an asset to the whole department. The knowledge that you shared with us and the learning you bought cannot be compared with anything. You have been a true and amazing co-worker and most of all a friend. Thank you so much for everything. Surely going to miss you here. I wish there were more moments of singing ed sheeran songs together.",
+        imgUrl : princess,
+        alt : "princess GIF"
     } ,
     {
         id : "2",

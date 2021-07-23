@@ -59,6 +59,7 @@ body {
   height: 400px;
   width: 30%;
   padding: 1.5rem;
+  margin-top: 2rem;
   background-color: burlywood;
   background: linear-gradient(to right, #0069c0 , #68233d);
   border-radius: 2rem;
@@ -67,5 +68,20 @@ body {
 .container-gif-image img {
   border-radius: 10px;
   padding-top: 1.3rem;
+  margin-top: 2rem;
 }
 
+
+.card-container-desc h2 {
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+.card-container-desc {
+  margin: 4rem 0rem 0rem 4rem;
+  overflow-y: auto;
+  text-align: justify;
+  border-radius: 2rem;
+  padding: 0rem;
+}
